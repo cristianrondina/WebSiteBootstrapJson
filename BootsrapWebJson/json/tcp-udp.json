@@ -1,0 +1,78 @@
+{
+  "introduction": {
+    "title": "TCP vs UDP",
+    "description": "In questa sezione esploreremo le differenze tra i protocolli TCP e UDP, due dei protocolli più utilizzati nelle comunicazioni di rete."
+  },
+  "comparison": [
+    {
+      "characteristic": "Affidabilità",
+      "tcp": "Affidabile (conferme di ricezione)",
+      "udp": "Non affidabile (senza conferme)"
+    },
+    {
+      "characteristic": "Controllo Flusso",
+      "tcp": "Presente",
+      "udp": "Assente"
+    },
+    {
+      "characteristic": "Velocità",
+      "tcp": "Lenta",
+      "udp": "Veloce"
+    },
+    {
+      "characteristic": "Connessione",
+      "tcp": "Orientato alla connessione",
+      "udp": "Non orientato alla connessione"
+    },
+    {
+      "characteristic": "Uso Comune",
+      "tcp": "Web, email, FTP",
+      "udp": "Video, audio streaming, giochi online"
+    }
+  ],
+  "detailed_comparison": {
+    "title": "Confronto Dettagliato tra TCP e UDP",
+    "description": "Entrambi i protocolli operano al livello di trasporto nel modello OSI, ma presentano differenze cruciali:",
+    "items": [
+      {
+        "protocol": "TCP (Transmission Control Protocol)",
+        "details": [
+          {
+            "title": "Affidabilità",
+            "description": "TCP è un protocollo orientato alla connessione e garantisce l'affidabilità. I dati vengono inviati in sequenza e il destinatario invia una conferma per ogni pacchetto ricevuto correttamente."
+          },
+          {
+            "title": "Controllo degli errori",
+            "description": "TCP ha un sistema di controllo degli errori che rileva pacchetti mancanti o corrotti e li ritrasmette."
+          },
+          {
+            "title": "Flusso e Congestione",
+            "description": "TCP include il controllo del flusso e della congestione per gestire la quantità di dati trasmessi senza sovraccaricare la rete."
+          },
+          {
+            "title": "Utilizzo",
+            "description": "È adatto per applicazioni che richiedono alta affidabilità, come il trasferimento di file (FTP), il web (HTTP) e l'email (SMTP)."
+          }
+        ]
+      },
+      {
+        "protocol": "UDP (User Datagram Protocol)",
+        "details": [
+          {
+            "title": "Velocità",
+            "description": "UDP è più veloce di TCP, poiché non garantisce la consegna dei pacchetti e non esegue il controllo degli errori."
+          },
+          {
+            "title": "Non orientato alla connessione",
+            "description": "UDP non stabilisce una connessione prima di inviare i dati, il che lo rende più adatto per applicazioni in tempo reale."
+          },
+          {
+            "title": "Utilizzo",
+            "description": "UDP è preferito per applicazioni come lo streaming video/audio, giochi online, e altre comunicazioni in tempo reale dove la velocità è critica e una piccola perdita di dati è tollerabile."
+          }
+        ]
+      }
+    ]
+  },
+  "conclusion": "TCP è più adatto quando è necessaria una comunicazione affidabile, mentre UDP è preferito per applicazioni che richiedono velocità e tollerano la perdita di pacchetti."
+}

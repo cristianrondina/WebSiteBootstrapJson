@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket Web - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>Socket Web</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="socket.html">Socket</a></li>
+            <li class="nav-item"><a class="nav-link" href="osi-transport.html">Modello OSI</a></li>
+            <li class="nav-item"><a class="nav-link" href="tcp-udp.html">TCP vs UDP</a></li>
+            <li class="nav-item"><a class="nav-link" href="glossario.html">Glossario</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="bg-image text-center shadow-1-strong rounded mb-5 text-white">
+        <div class="container">
+          <h1 class="display-4">Benvenuto nel mondo delle Socket!</h1>
+          <p class="lead">Impara come funzionano le socket e il loro ruolo nelle comunicazioni di rete.</p>
+          <hr class="my-4 bg-light">
+          <p>Scopri concetti fondamentali come il modello OSI, TCP/UDP e molto altro.</p>
+          <a class="btn btn-light btn-lg" href="socket.html" role="button">Inizia il viaggio</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Grid Section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Esplora le Sezioni</h2>
+      <div class="row">
+        <!-- First Card: Socket -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 bg-image shadow-1-strong">
+            <div class="card-body">
+              <h5 class="card-title text-black">Socket</h5>
+              <p class="card-text text-black">Cos'è una socket? Scopri come funziona e le sue tipologie.</p>
+              <a href="socket.html" class="btn btn-primary">Leggi di più</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card: Modello OSI -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 bg-image shadow-1-strong">
+            <div class="card-body">
+              <h5 class="card-title text-black">Modello OSI</h5>
+              <p class="card-text text-black">Approfondisci il modello OSI e il livello di trasporto.</p>
+              <a href="osi-transport.html" class="btn btn-primary">Scopri</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Card: TCP vs UDP -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 bg-image shadow-1-strong">
+            <div class="card-body">
+              <h5 class="card-title text-black">TCP vs UDP</h5>
+              <p class="card-text text-black">Confronta i protocolli TCP e UDP e il loro utilizzo.</p>
+              <a href="tcp-udp.html" class="btn btn-primary">Confronta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-4">
+      <p>&copy; 2024 Socket Web | Creato da Cristian Rondina - Classe 5E</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="/js/indexScript.js"></script> <!-- Link to external JS file -->
+  </body>
+</html>

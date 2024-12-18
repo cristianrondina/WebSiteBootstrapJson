@@ -1,0 +1,47 @@
+{
+  "socket_overview": {
+    "title": "Panoramica sui Socket",
+    "description": "I socket sono uno degli elementi chiave per la comunicazione di rete, permettendo a due dispositivi di comunicare attraverso una rete (ad esempio Internet) utilizzando protocolli specifici come TCP o UDP. Un socket è costituito da un indirizzo IP e una porta, ed è utilizzato per creare connessioni bidirezionali tra client e server. Questi punti di comunicazione consentono di inviare e ricevere dati in modo sicuro ed efficiente."
+  },
+  "socket_types": [
+    {
+      "name": "Stream Sockets (TCP)",
+      "description": "Questi socket vengono utilizzati per le comunicazioni affidabili e orientate alla connessione. TCP (Transmission Control Protocol) garantisce che i dati vengano inviati e ricevuti correttamente, mantenendo l'ordine dei pacchetti."
+    },
+    {
+      "name": "Datagram Sockets (UDP)",
+      "description": "UDP (User Datagram Protocol) è utilizzato per trasmissioni più veloci ma non garantisce la stessa affidabilità di TCP. Non si preoccupa dell'ordine dei pacchetti e non esegue il controllo di flusso, il che lo rende adatto per applicazioni come lo streaming video e giochi online dove la velocità è più importante dell'affidabilità."
+    },
+    {
+      "name": "Raw Sockets",
+      "description": "I raw socket sono utilizzati per inviare e ricevere pacchetti direttamente a livello di rete. Questi sono generalmente utilizzati per applicazioni che richiedono un controllo completo sulla trasmissione dei pacchetti, come firewall e strumenti di monitoraggio della rete."
+    }
+  ],
+  "socket_communication": {
+    "title": "Come Funziona la Comunicazione con i Socket?",
+    "steps": [
+      {
+        "title": "Binding",
+        "description": "In questa fase, un server apre un socket e lo lega a un indirizzo IP e un numero di porta specifico. Il server quindi ascolta le richieste in arrivo."
+      },
+      {
+        "title": "Exchange",
+        "description": "Il client stabilisce una connessione al server utilizzando l'indirizzo IP e la porta del server. Dopo che la connessione è stabilita, i due dispositivi possono scambiarsi dati. Con TCP, i dati vengono inviati in modo sequenziale e affidabile, mentre con UDP i pacchetti vengono inviati senza garanzia di ordine o affidabilità."
+      }
+    ]
+  },
+  "socket_uses": [
+    {
+      "title": "Web Browsing",
+      "description": "I browser utilizzano i socket per connettersi ai server web e recuperare pagine web."
+    },
+    {
+      "title": "Applicazioni di Messaggistica",
+      "description": "Le applicazioni di messaggistica istantanea come WhatsApp o Telegram utilizzano i socket per inviare e ricevere messaggi in tempo reale."
+    },
+    {
+      "title": "Streaming Video e Audio",
+      "description": "Servizi come Netflix e Spotify utilizzano i socket per trasmettere video e audio in tempo reale."
+    }
+  ]
+}

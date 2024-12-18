@@ -1,0 +1,32 @@
+{
+  "osi_layers": [
+    {
+      "name": "Fisico",
+      "description": "Il primo strato del modello OSI gestisce la trasmissione fisica dei dati attraverso i vari media (fibra ottica, cavi, onde radio). Si occupa di definire le caratteristiche fisiche dei dispositivi e dei supporti di trasmissione."
+    },
+    {
+      "name": "Collegamento Dati",
+      "description": "Questo strato si occupa della trasmissione di frame di dati tra dispositivi sulla stessa rete. Gestisce l'indirizzamento MAC e la correzione degli errori, assicurando che i dati vengano trasmessi senza errori tra dispositivi direttamente connessi."
+    },
+    {
+      "name": "Rete",
+      "description": "Il Network Layer è responsabile dell'instradamento dei pacchetti di dati tra dispositivi in rete tramite indirizzamento IP. Gestisce anche la segmentazione dei pacchetti per garantirne la corretta consegna attraverso più reti."
+    },
+    {
+      "name": "Trasporto",
+      "description": "Questo strato gestisce la comunicazione di end-to-end, assicurando che i dati vengano consegnati in modo affidabile tra il mittente e il destinatario. Controlla la frammentazione dei dati, la correzione degli errori e la gestione del flusso."
+    },
+    {
+      "name": "Sessione",
+      "description": "Il Session Layer gestisce le sessioni di comunicazione tra applicazioni. Si occupa di creare, mantenere e terminare le connessioni, assicurando che i dati siano scambiati in modo ordinato e sincronizzato."
+    },
+    {
+      "name": "Presentazione",
+      "description": "Il Presentation Layer si occupa della traduzione, crittografia e compressione dei dati. È il livello che trasforma i dati nel formato necessario per essere visualizzati o utilizzati dall'applicazione."
+    },
+    {
+      "name": "Applicazione",
+      "description": "Il livello più alto, l'Applicazione, interagisce direttamente con l'utente finale o le applicazioni di rete. I protocolli come HTTP, FTP, SMTP e DNS operano a questo livello."
+    }
+  ]
+}

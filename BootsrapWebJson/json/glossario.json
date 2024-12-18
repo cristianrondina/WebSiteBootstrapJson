@@ -1,0 +1,26 @@
+[
+  {
+    "termine": "Socket",
+    "definizione": "Un endpoint per la comunicazione di rete tra due dispositivi. I socket possono essere utilizzati per la comunicazione tramite TCP, UDP o altri protocolli."
+  },
+  {
+    "termine": "IP Address",
+    "definizione": "Un indirizzo univoco che identifica un dispositivo in una rete. Esistono indirizzi IPv4 (es. 192.168.1.1) e IPv6 (es. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)."
+  },
+  {
+    "termine": "TCP (Transmission Control Protocol)",
+    "definizione": "Un protocollo orientato alla connessione che garantisce la consegna affidabile dei dati, utilizzato in situazioni in cui l'affidabilità è essenziale."
+  },
+  {
+    "termine": "UDP (User Datagram Protocol)",
+    "definizione": "Un protocollo non orientato alla connessione che non garantisce l'affidabilità, ma è più veloce di TCP. Viene utilizzato per applicazioni che richiedono velocità piuttosto che affidabilità."
+  },
+  {
+    "termine": "Port",
+    "definizione": "Un numero utilizzato per identificare una specifica applicazione o servizio su un dispositivo di rete. Ad esempio, il port 80 è utilizzato per HTTP."
+  },
+  {
+    "termine": "Protocollo di Rete",
+    "definizione": "Un insieme di regole e convenzioni che consentono la comunicazione tra dispositivi in una rete."
+  }
+]

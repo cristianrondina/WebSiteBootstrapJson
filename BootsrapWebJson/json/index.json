@@ -1,0 +1,31 @@
+{
+  "heroSection": {
+    "title": "Benvenuto nel mondo delle Socket!",
+    "description": "Impara come funzionano le socket e il loro ruolo nelle comunicazioni di rete.",
+    "ctaText": "Inizia il viaggio",
+    "ctaLink": "socket.html"
+  },
+  "cards": [
+    {
+      "title": "Socket",
+      "description": "Cos'è una socket? Scopri come funziona e le sue tipologie.",
+      "link": "socket.html",
+      "buttonText": "Leggi di più"
+    },
+    {
+      "title": "Modello OSI",
+      "description": "Approfondisci il modello OSI e il livello di trasporto.",
+      "link": "osi-transport.html",
+      "buttonText": "Scopri"
+    },
+    {
+      "title": "TCP vs UDP",
+      "description": "Confronta i protocolli TCP e UDP e il loro utilizzo.",
+      "link": "tcp-udp.html",
+      "buttonText": "Confronta"
+    }
+  ],
+  "footer": {
+    "text": "Creato da Cristian Rondina - Classe 5E"
+  }
+}
